@@ -28,10 +28,21 @@
             "assets": [
               {
                 "glob": "**/*",
+                "input": "node_modules/monaco-editor/min",
+                "output": "/assets/monaco/"
+              },
+              {
+                "glob": "**/*",
                 "input": "public"
-              }
+              },
+              { 
+                "glob": "**/*", 
+                "input": "node_modules/monaco-editor/min", 
+                "output": "/assets/monaco/" 
+              }  
             ],
             "styles": [
+              "./node_modules/@po-ui/style/css/po-theme-default.min.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -87,10 +98,16 @@
             "assets": [
               {
                 "glob": "**/*",
+                "input": "node_modules/monaco-editor/min",
+                "output": "/assets/monaco/"
+              },
+              {
+                "glob": "**/*",
                 "input": "public"
               }
             ],
             "styles": [
+              "./node_modules/@po-ui/style/css/po-theme-default.min.css",
               "src/styles.scss"
             ],
             "scripts": []
